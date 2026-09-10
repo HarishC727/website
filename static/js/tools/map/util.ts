@@ -162,23 +162,18 @@ const EUROPE_CHILD_PLACE_TYPES = {
 };
 
 const AUSTRALIA_CHILD_PLACE_TYPES = {
-  Country: [
+  Country: ["State", "ABSGreaterCapitalCityStatisticalArea"],
+  State: [
     "ABSGreaterCapitalCityStatisticalArea",
     "ABSStatisticalAreaLevel4",
-    "ABSStatisticalAreaLevel3",
-    "ABSStatisticalAreaLevel2",
-    "ABSStatisticalAreaLevel1",
   ],
   ABSGreaterCapitalCityStatisticalArea: [
     "ABSStatisticalAreaLevel4",
     "ABSStatisticalAreaLevel3",
-    "ABSStatisticalAreaLevel2",
-    "ABSStatisticalAreaLevel1",
   ],
   ABSStatisticalAreaLevel4: [
     "ABSStatisticalAreaLevel3",
     "ABSStatisticalAreaLevel2",
-    "ABSStatisticalAreaLevel1",
   ],
   ABSStatisticalAreaLevel3: [
     "ABSStatisticalAreaLevel2",
