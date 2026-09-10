@@ -45,7 +45,10 @@ const PLACE_TYPES: DCType[] = [
   { dcid: "Municipality", displayName: "Municipality" },
   { dcid: "County", displayName: "County" },
   { dcid: "City", displayName: "City" },
-  { dcid: "ABSGreaterCapitalCityStatisticalArea", displayName: "Greater Capital City Statistical Area" },
+  {
+    dcid: "ABSGreaterCapitalCityStatisticalArea",
+    displayName: "Greater Capital City Statistical Area",
+  },
   { dcid: "ABSStatisticalAreaLevel4", displayName: "Statistical Area Level 4" },
   { dcid: "ABSStatisticalAreaLevel3", displayName: "Statistical Area Level 3" },
   { dcid: "ABSStatisticalAreaLevel2", displayName: "Statistical Area Level 2" },
@@ -134,11 +137,31 @@ export class PlaceDetector {
     ["municipality", [{ tName: "Municipality", pName: "name" }]],
     ["county", [{ tName: "County", pName: "name" }]],
     ["city", [{ tName: "City", pName: "name" }]],
-    ["gccsa", [{ tName: "ABSGreaterCapitalCityStatisticalArea", pName: "absGeographicCode" }]],
-    ["sa4", [{ tName: "ABSStatisticalAreaLevel4", pName: "absGeographicCode" }]],
-    ["sa3", [{ tName: "ABSStatisticalAreaLevel3", pName: "absGeographicCode" }]],
-    ["sa2", [{ tName: "ABSStatisticalAreaLevel2", pName: "absGeographicCode" }]],
-    ["sa1", [{ tName: "ABSStatisticalAreaLevel1", pName: "absGeographicCode" }]],
+    [
+      "gccsa",
+      [
+        {
+          tName: "ABSGreaterCapitalCityStatisticalArea",
+          pName: "absGeographicCode",
+        },
+      ],
+    ],
+    [
+      "sa4",
+      [{ tName: "ABSStatisticalAreaLevel4", pName: "absGeographicCode" }],
+    ],
+    [
+      "sa3",
+      [{ tName: "ABSStatisticalAreaLevel3", pName: "absGeographicCode" }],
+    ],
+    [
+      "sa2",
+      [{ tName: "ABSStatisticalAreaLevel2", pName: "absGeographicCode" }],
+    ],
+    [
+      "sa1",
+      [{ tName: "ABSStatisticalAreaLevel1", pName: "absGeographicCode" }],
+    ],
   ]);
 
   constructor() {
