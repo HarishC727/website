@@ -391,6 +391,17 @@ PLACE_TYPE_TO_PLURALS: Dict[str, str] = {
     "administrativearea4": "administrative area 4 places",
     "administrativearea5": "administrative area 5 places",
     "region": "regions",
+    # ASGS3 types
+    "greatercapitalcitystatisticalarea": "greater capital city statistical areas",
+    "gccsa": "gccsa",
+    "sa4": "sa4",
+    "statisticalarealevel4": "statistical areas level 4",
+    "sa3": "sa3",
+    "statisticalarealevel3": "statistical areas level 3",
+    "sa2": "sa2",
+    "statisticalarealevel2": "statistical areas level 2",
+    "sa1": "sa1",
+    "statisticalarealevel1": "statistical areas level 1",
     # Schools
     "highschool": "high schools",
     "middleschool": "middle schools",
