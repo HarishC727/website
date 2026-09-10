@@ -162,14 +162,8 @@ const EUROPE_CHILD_PLACE_TYPES = {
 };
 
 const AUSTRALIA_CHILD_PLACE_TYPES = {
-  Country: [
-    "State",
-    "ABSGreaterCapitalCityStatisticalArea",
-  ],
-  State: [
-    "ABSGreaterCapitalCityStatisticalArea",
-    "ABSStatisticalAreaLevel4",
-  ],
+  Country: ["State", "ABSGreaterCapitalCityStatisticalArea"],
+  State: ["ABSGreaterCapitalCityStatisticalArea", "ABSStatisticalAreaLevel4"],
   ABSGreaterCapitalCityStatisticalArea: [
     "ABSStatisticalAreaLevel4",
     "ABSStatisticalAreaLevel3",
@@ -182,9 +176,7 @@ const AUSTRALIA_CHILD_PLACE_TYPES = {
     "ABSStatisticalAreaLevel2",
     "ABSStatisticalAreaLevel1",
   ],
-  ABSStatisticalAreaLevel2: [
-    "ABSStatisticalAreaLevel1",
-  ],
+  ABSStatisticalAreaLevel2: ["ABSStatisticalAreaLevel1"],
 };
 
 const AA1_AA2_PLACES = new Set([

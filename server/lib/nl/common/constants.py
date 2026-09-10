@@ -220,16 +220,11 @@ ADMIN_DIVISION_EQUIVALENTS = {
     ContainedInPlaceType.ADMIN_AREA_3:
         ContainedInPlaceType.ADMIN_AREA_2,
     # ASGS3 equivalents
-    ContainedInPlaceType.ABS_GCCSA:
-        ContainedInPlaceType.ADMIN_AREA_2,
-    ContainedInPlaceType.ABS_SA4:
-        ContainedInPlaceType.ADMIN_AREA_2,
-    ContainedInPlaceType.ABS_SA3:
-        ContainedInPlaceType.ADMIN_AREA_2,
-    ContainedInPlaceType.ABS_SA2:
-        ContainedInPlaceType.ADMIN_AREA_2,
-    ContainedInPlaceType.ABS_SA1:
-        ContainedInPlaceType.ADMIN_AREA_2,
+    ContainedInPlaceType.ABS_GCCSA: ContainedInPlaceType.ADMIN_AREA_2,
+    ContainedInPlaceType.ABS_SA4: ContainedInPlaceType.ADMIN_AREA_2,
+    ContainedInPlaceType.ABS_SA3: ContainedInPlaceType.ADMIN_AREA_2,
+    ContainedInPlaceType.ABS_SA2: ContainedInPlaceType.ADMIN_AREA_2,
+    ContainedInPlaceType.ABS_SA1: ContainedInPlaceType.ADMIN_AREA_2,
 }
 
 # Key is canonical AA types (and excludes county, province, etc.)
@@ -255,10 +250,8 @@ PAK_PLACE_TYPE_REMAP = {
 
 # Key is canonical AA types (and excludes county, province, etc.)
 AUS_PLACE_TYPE_REMAP = {
-    ContainedInPlaceType.ADMIN_AREA_1:
-        ContainedInPlaceType.STATE,
-    ContainedInPlaceType.ADMIN_AREA_2:
-        ContainedInPlaceType.ABS_SA4,
+    ContainedInPlaceType.ADMIN_AREA_1: ContainedInPlaceType.STATE,
+    ContainedInPlaceType.ADMIN_AREA_2: ContainedInPlaceType.ABS_SA4,
 }
 
 EARTH = Place('Earth', 'World', 'Place')
